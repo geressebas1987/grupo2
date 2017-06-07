@@ -1,0 +1,36 @@
+.espacio-arriba {
+	margin-top: 20px;
+}
+
+.glory {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.2em;
+}
+
+label {
+    font-size: 16px;
+}
+
+.modal-header, h4, .close {
+    background-color: #ff8f00;
+    color:white ;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 30px;
+}
+
+.background{ 
+    background-image: url('../imgs/mate2.jpg');
+    height: 100%; 
+
+    /* Center and scale the image nicely*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* The image used (with support for safari, mozilla, opera)
+    background: url('../gauchada/imgs/mate2.jpg')no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+}
