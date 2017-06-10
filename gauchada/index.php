@@ -64,7 +64,7 @@
       							echo"<td width=400>".$row['descripcion'],"</td>";
       							
       							echo"<td  width=300><img src=";
-								if (!isset($row['imagen'])) {
+								if (isset($row['imagen'])) {
 								echo "./imgs/def.jpg";
 								}else{
 								echo "mostrarImagen.php?idPublicacion=".$row['idPublicacion'];
