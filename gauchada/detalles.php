@@ -13,8 +13,8 @@
 			<div id="columna">
 				<?php
 				    echo"<h2> Imagen de la Gauchada</h2>";
-				 	//echo "<img id=imagen src=mostrarImagen.php?idPublicacion=".$row['idPublicacion']. " >";
-					echo "<img src=./imgs/def.jpg>";
+				 	echo "<img id=imagen src=mostrarImagen.php?idPublicacion=".$row['idPublicacion']. " >";
+					//echo "<img src=./imgs/def.jpg>";
 					
 				?>
 			<div>
