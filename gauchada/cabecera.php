@@ -44,14 +44,13 @@
 			}
 			else{ echo"<h3><a href=index.php><img id=inicio src=imgs/logo2.jpg></a> | <a href=ingresar.php>INGRESAR</a> |<a href=registrar.php> REGISTRARSE</a></h3>";}
 
-
 		?>
 		
-		
-        
-
-
-        <img id="logosan" src="imgs/gaucho2.jpg">
+        <img id="logosan" src="imgs/Gaucho.jpg" srcset="imgs/Gaucho480.jpg 480w, 
+														imgs/Gaucho640.jpg 640w, 
+														imgs/Gaucho800.jpg 768w,
+														imgs/Gaucho1280.jpg 800w,
+														imgs/Gaucho1280.jpg 1366w">
 
          
 
